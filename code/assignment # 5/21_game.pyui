@@ -1,0 +1,381 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{47, 50}, {181, 69}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "play_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Play",
+          "uuid" : "53813823-1D1E-46C5-9229-8C6BBF169BE5",
+          "font_bold" : false,
+          "class" : "Button",
+          "corner_radius" : 20,
+          "name" : "play_button",
+          "font_size" : 35
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{47, 220}, {181, 70}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "draw_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Draw another card",
+          "uuid" : "8F554ABA-000E-4055-8C78-69C001A527A2",
+          "class" : "Button",
+          "corner_radius" : 20,
+          "name" : "draw_button",
+          "font_size" : 20
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{47, 390}, {181, 70}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "check_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "9349F93B-9C40-43D3-A11F-C3DC3911C7AC",
+          "class" : "Button",
+          "corner_radius" : 20,
+          "name" : "check_button",
+          "font_size" : 35
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{47, 560}, {181, 70}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 2,
+          "action" : "reset_button_touch_up_inside",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Reset",
+          "uuid" : "5D7392E5-271A-4E24-A7E6-3FFAFB33A5E7",
+          "class" : "Button",
+          "corner_radius" : 20,
+          "name" : "reset_button",
+          "font_size" : 35
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{318, 220}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6BFC0DF4-734C-4B59-A01D-1BE438B9C969",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "First card:",
+          "name" : "player_firstcard_info_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{345, 251}, {101, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "DB19144C-A407-426A-9962-1300DD273A7D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "first_card_label",
+          "font_size" : 31
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{576, 251}, {101, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "DB19144C-A407-426A-9962-1300DD273A7D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 31,
+          "name" : "second_card_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{551, 220}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6BFC0DF4-734C-4B59-A01D-1BE438B9C969",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Second card:",
+          "font_size" : 18,
+          "name" : "player_secondcard_info_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{781.5, 220}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6BFC0DF4-734C-4B59-A01D-1BE438B9C969",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "name" : "player_thirdcard_info_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{805, 251}, {101, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "DB19144C-A407-426A-9962-1300DD273A7D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "third_card_label",
+          "font_size" : 31
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{318, 329}, {250, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A3400B9A-DAD9-4B67-8B7A-775E2AFE59A1",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "player_total_label",
+          "font_size" : 25
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{297, 390}, {190, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6BFC0DF4-734C-4B59-A01D-1BE438B9C969",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Computer's First card:",
+          "font_size" : 18,
+          "name" : "computer_firstcard_info_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{524, 390}, {209, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6BFC0DF4-734C-4B59-A01D-1BE438B9C969",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Computer's Second card:",
+          "name" : "computer_secondcard_info_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{759.5, 390}, {190, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "6BFC0DF4-734C-4B59-A01D-1BE438B9C969",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Computer's Third card:",
+          "name" : "computer_thirdcard_info_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{345, 421}, {101, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "DB19144C-A407-426A-9962-1300DD273A7D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 31,
+          "name" : "computer_first_card_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{576, 421}, {101, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "DB19144C-A407-426A-9962-1300DD273A7D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 31,
+          "name" : "computer_second_card_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{805, 421}, {101, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "DB19144C-A407-426A-9962-1300DD273A7D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 31,
+          "name" : "computer_third_card_label"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{318, 502}, {250, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A3400B9A-DAD9-4B67-8B7A-775E2AFE59A1",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 25,
+          "name" : "computer_total_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{318, 577}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "5DAB4BBB-3FAC-4F81-BC1D-225CF2062A26",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "result_info_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{476, 577}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "C902CDA2-4C2B-4145-AD2C-DE228EA18AD6",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "result_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
